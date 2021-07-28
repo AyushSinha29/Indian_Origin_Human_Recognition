@@ -15,7 +15,7 @@ def human_verification(x):
     gray =cv.cvtColor(img,cv.COLOR_BGR2GRAY)
    
 
-    haar_cascade = cv.CascadeClassifier('C:/Users/KIIT/Desktop/Human Image Proj/Sample/haarcascade_frontalface_default.xml') #Reads the haarcascade file and store in the variable
+    haar_cascade = cv.CascadeClassifier('C:/----/haarcascade_frontalface_default.xml') #Reads the haarcascade file and store in the variable
 
     faces_rect = haar_cascade.detectMultiScale(gray,scaleFactor=1.1,minNeighbors=5)
 
@@ -39,7 +39,7 @@ def human_verification(x):
 def human_classification(y):
     print("Please wait,it takes a while to read the yaml file.")
   
-    haar_cascade =cv.CascadeClassifier('C:\\Users\\KIIT\\Desktop\\Human Image Proj\\haarcascade_frontalface_default.xml')
+    haar_cascade =cv.CascadeClassifier('C:\\---\\haarcascade_frontalface_default.xml')
 
     people =['Indian','Non-Indian']
     features =np.load('features.npy',allow_pickle=True)
