@@ -8,3 +8,6 @@ To train the model just put in the path of the train folder and create two folde
 
 Testing the model : (USE OF main.py)
 The first part of the main file (human_verification) will verify that the input image is human or non-human and gradually the next part (human_classification) will classify them as Indian or Non Indian.For this , the model will read the three files created in the training stage.
+
+Testing the model instantly: (USE OF main-instant.py)
+This piece of code will capture the image of user instantly and will process the image through all the processess similar to that of main.py, as mentioned above.
