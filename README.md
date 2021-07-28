@@ -11,3 +11,4 @@ The first part of the main file (human_verification) will verify that the input 
 
 Testing the model instantly: (USE OF main-instant.py)
 This piece of code will capture the image of user instantly and will process the image through all the processess similar to that of main.py, as mentioned above.
+Just click on 's' and see the magic happening!
