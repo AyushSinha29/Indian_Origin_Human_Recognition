@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-haar_cascade =cv.CascadeClassifier('C:\\Users\\KIIT\\Desktop\\Human Image Proj\\dataset\\train\\haarcascade_frontalface_default.xml')
+haar_cascade =cv.CascadeClassifier('C:\---\haarcascade_frontalface_default.xml')
 
 people =['Indian','Non-Indian']
 features =np.load('features.npy',allow_pickle=True)
@@ -10,7 +10,7 @@ labels =np.load('labels.npy')
 face_recognizer=cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read('face_trained.yml')
 
-img =cv.imread(r'C:/Users/KIIT/Desktop/Human Image Proj/dataset/test/gettyimages-144102495-612x612.jpg')
+img =cv.imread(r'C:/---/test/gettyimages-144102495-612x612.jpg')
 
 gray =cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 #cv.imshow('Person',gray)
