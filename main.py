@@ -76,7 +76,7 @@ def human_classification(y):
     return hcs
 
 
-print("This program detects a human in the image and if there is one then it tells wheteher he/she is Indian or Non Indian")
+print("This program detects a human in the image and if there is one then it tells whether he/she is Indian or Non Indian")
 
 
     
